@@ -2,10 +2,8 @@ package com.cricket360.manager
 
 import com.cricket360.connection.MongoConnector
 import com.cricket360.helpers.RsvpHelper
-import com.cricket360.model.Rsvp
-import com.mongodb.casbah.commons.{MongoDBObject, TypeImports}
+import com.mongodb.casbah.commons.MongoDBObject
 import com.sun.media.sound.InvalidDataException
-import org.joda.time
 import com.mongodb.casbah.Imports._
 
 import scala.concurrent.Future
